@@ -1,0 +1,5 @@
+option batch abort
+option confirm off
+open sftp://username:password@hostname -privatekey="private key location" -hostkey="ssh-rsa 2048 b5:......." -passphrase="password"
+synchronize local C:\
+exit
